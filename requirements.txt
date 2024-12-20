@@ -11,6 +11,7 @@ google-api-python-client==2.153.0
 apscheduler==3.11.0
 oauthlib==3.2.2
 pathlib==1.0.1
+gunicorn==23.0.0
 # Note: The following libraries comes with Python; explicit installation is unnecessary unless a specific package is used.
 # sqlite3==3.40.0
 # base64==1.0.1
