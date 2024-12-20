@@ -18,7 +18,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+# os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 db = Database()
 
