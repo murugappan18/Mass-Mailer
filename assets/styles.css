@@ -1,0 +1,61 @@
+/* Define colors for light and dark modes */
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --input-border-color: rgb(225, 215, 215);
+  --button-bg: darkorange;
+  --button-border: blue;
+}
+
+[data-theme="dark"] {
+  --bg-color: #2e2e2e;
+  --text-color: white;
+  --input-border-color: #8c8c8c;
+  --button-bg: teal;
+  --button-border: lightblue;
+}
+
+/* Apply dynamic styles */
+div[data-testid="stForm"] {
+  background-color: #c0b9b9;
+  border: 2px solid rgb(234, 226, 226);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 86%;
+  /* color: ; */
+}
+
+div[data-testid="stForm"] button {
+  background-color: black;
+  color: white;
+}
+
+div[data-testid="stForm"] button:hover{
+  border-color: white;
+  color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+div[data-testid="stTextInputRootElement"] {
+  border: 3px solid var(--input-border-color);
+  border-radius: 10px;
+}
+
+div[data-testid="stTextInputRootElement"]:focus {
+  border: 3px solid var(--input-border-color);
+}
+
+.st-key-FormSubmitter-login_form div[data-testid="stFormSubmitButton"] div[data-testid="stBaseButton-secondaryFormSubmit"]:hover{
+    color: rgb(163, 215, 212);
+}
+
+.st-key-login_button {
+  border-color: var(--button-border);
+  background-color: var(--button-bg);
+  color: var(--text-color);
+}

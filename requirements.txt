@@ -1,0 +1,17 @@
+#Supports Python Version 3.8.10 (Tested)
+streamlit==1.40.0
+requests==2.32.3
+pandas==2.0.3
+altair==5.4.1
+plotly==5.24.1
+flask==3.0.3
+flask-cors==5.0.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.153.0
+apscheduler==3.11.0
+oauthlib==3.2.2
+pathlib==1.0.1
+# Note: The following libraries comes with Python; explicit installation is unnecessary unless a specific package is used.
+# sqlite3==3.40.0
+# base64==1.0.1
+# email==1.0.0

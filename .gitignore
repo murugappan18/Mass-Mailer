@@ -1,0 +1,4 @@
+__pycache__/
+email_management.db
+google_credentials.json
+outlook_credentials.json
