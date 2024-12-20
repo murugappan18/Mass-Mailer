@@ -7,7 +7,7 @@ import pathlib
 import plotly.graph_objects as go
 
 # Flask API URL
-API_URL = "http://127.0.0.1:5000"
+API_URL = "https://mass-mailer.onrender.com"
 
 # Function to fetch users and return as a Pandas DataFrame
 def fetch_users():
