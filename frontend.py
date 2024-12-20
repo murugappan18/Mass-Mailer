@@ -8,7 +8,7 @@ import pathlib
 import re
 
 # Flask API URL
-API_URL = "http://127.0.0.1:5000"
+API_URL = "https://mass-mailer.onrender.com"
 
 # Define functions to handle each page's content
 def show_home_page():

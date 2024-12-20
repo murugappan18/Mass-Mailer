@@ -30,7 +30,7 @@ SCOPES = [
     "openid",
     "https://www.googleapis.com/auth/gmail.modify",
 ]
-REDIRECT_URI = "http://localhost:5000/callback"
+REDIRECT_URI = "https://mass-mailer.onrender.com/callback"
 
 # Outlook OAuth2 Configuration
 OUTLOOK_CLIENT_SECRETS_FILE = "outlook_credentials.json"
@@ -39,7 +39,7 @@ OUTLOOK_SCOPES = [
     "https://graph.microsoft.com/Mail.Send",
     "offline_access",
 ]
-OUTLOOK_REDIRECT_URI = "http://localhost:5000/outlook_callback"
+OUTLOOK_REDIRECT_URI = "https://mass-mailer.onrender.com/outlook_callback"
 
 # Scheduler Setup (Using APScheduler for scheduling email sending)
 scheduler = BackgroundScheduler()
